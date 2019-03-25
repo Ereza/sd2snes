@@ -167,7 +167,7 @@ window_wv       .byt 26
 window_ev       .byt 27
 window_tl       .byt 28
 window_tr       .byt 29
-text_clkset     .byt "Please set the time", 0
+text_clkset     .byt "Establiu l'hora", 0
 time_win_x      .byt 20
 time_win_y      .byt 17
 time_win_w      .byt 25
@@ -176,7 +176,7 @@ main_win_x      .byt 18
 main_win_y      .byt 11
 main_win_w      .byt 27
 main_win_h      .byt 13
-text_mainmenu   .byt "Main Menu", 0
+text_mainmenu   .byt "Men", 135, " principal", 0
 sysinfo_win_x   .byt 10
 sysinfo_win_y   .byt 9
 sysinfo_win_w   .byt 43
@@ -186,110 +186,110 @@ last_win_y      .byt 12
 last_win_w      .byt 60
 
 text_ellipse                      .byt 127, 128, 0
-text_mm_file                      .byt "File Browser", 0
-text_mm_last                      .byt "Recent games", 0
-mtext_mm_cfg                      .byt "Configuration", 0
-mtext_mm_sysinfo                  .byt "System Information", 0
-mtext_cfg_time                    .byt "Set Clock", 0
-mtext_cfg_bsx                     .byt "BS-X Settings", 0
-mtext_cfg_browser                 .byt "Browser Settings", 0
-mtext_cfg_chip                    .byt "Chip Options", 0
-mtext_cfg_ingame                  .byt "In-game Settings", 0
-mtext_cfg_scic                    .byt "SuperCIC Settings", 0
-mtext_bsx_timesource              .byt "BS-X clock", 0
-mtext_bsx_time                    .byt "Custom time", 0
-mtext_scic_enable                 .byt "Enable SuperCIC", 0
-mtext_scic_vmode_menu             .byt " ",129,"Menu video mode", 0
-mtext_scic_vmode_game             .byt " ",129,"Game video mode", 0
-mtext_browser_sort                .byt "Sort directories", 0
-mtext_browser_hide_ext            .byt "Hide file extensions", 0
-mtext_browser_screensaver         .byt "Screensaver", 0
-mtext_browser_screensaver_timeout .byt "Fade screen after", 0
-mtext_browser_ledbright           .byt "LED brightness", 0
-mtext_ingame_cheats               .byt "Start with cheats enabled", 0
-mtext_ingame_shortreset           .byt "Reset to menu", 0
-mtext_ingame_enable               .byt "In-game hook", 0
-mtext_ingame_buttons              .byt " ",129,"In-game buttons", 0
-mtext_ingame_holdoff              .byt " ",129,"Initial holdoff", 0
-mtext_ingame_regionpatch          .byt "Auto region patch", 0
-mtext_ingame_1chiptransientfixes  .byt "1CHIP transient fixes", 0
-mtext_ingame_brightlimit          .byt "Brightness limit", 0
-mtext_ingame_resetpatch           .byt "Reset patch for clock phase", 0
-mtext_chip_cx4_speed              .byt "Cx4 speed", 0
-mtext_chip_gsu_speed              .byt "SuperFX speed", 0
-mtext_chip_msu1_volume_boost      .byt "MSU-1 volume boost", 0
+text_mm_file                      .byt "Explorador de fitxers", 0
+text_mm_last                      .byt "Jocs recents", 0
+mtext_mm_cfg                      .byt "Configuraci", 135, 0
+mtext_mm_sysinfo                  .byt "Informaci", 135, " del sistema", 0
+mtext_cfg_time                    .byt "Configuraci", 135, " del rellotge", 0
+mtext_cfg_bsx                     .byt "Configuraci", 135, " del BS-X", 0
+mtext_cfg_browser                 .byt "Configuraci", 135, " de l'explorador", 0
+mtext_cfg_chip                    .byt "Configuraci", 135, " dels xips", 0
+mtext_cfg_ingame                  .byt "Configuraci", 135, " durant el joc", 0
+mtext_cfg_scic                    .byt "Configuraci", 135, " del SuperCIC", 0
+mtext_bsx_timesource              .byt "Rellotge del BS-X", 0
+mtext_bsx_time                    .byt "Hora personalitzada", 0
+mtext_scic_enable                 .byt "Activa el SuperCIC", 0
+mtext_scic_vmode_menu             .byt " ",129,"Mode de v",133,"deo del men", 136, 0
+mtext_scic_vmode_game             .byt " ",129,"Mode de v",133,"deo del joc", 0
+mtext_browser_sort                .byt "Ordena els directoris", 0
+mtext_browser_hide_ext            .byt "Amaga les extensions dels fitxers", 0
+mtext_browser_screensaver         .byt "Estalvi de pantalla", 0
+mtext_browser_screensaver_timeout .byt "Enfosqueix la pantalla despr",132,"s de", 0
+mtext_browser_ledbright           .byt "Brillantor del LED", 0
+mtext_ingame_cheats               .byt "Comen",137,"a amb els trucs activats", 0
+mtext_ingame_shortreset           .byt "Torna al men",136," en reiniciar", 0
+mtext_ingame_enable               .byt "Acoblament al joc", 0
+mtext_ingame_buttons              .byt " ",129,"Botons durant el joc", 0
+mtext_ingame_holdoff              .byt " ",129,"Espera inicial", 0
+mtext_ingame_regionpatch          .byt "Peda", 137, " de regi", 135, " autom",130,"tic", 0
+mtext_ingame_1chiptransientfixes  .byt "Soluci",135," de les transicions en 1CHIP", 0
+mtext_ingame_brightlimit          .byt "L",133,"mit de brillantor", 0
+mtext_ingame_resetpatch           .byt "Peda",137," de fase del rellotge en reiniciar", 0
+mtext_chip_cx4_speed              .byt "Velocitat del Cx4", 0
+mtext_chip_gsu_speed              .byt "Velocitat del SuperFX", 0
+mtext_chip_msu1_volume_boost      .byt "Augment de volum de l'MSU-1", 0
 
-mdesc_mm_last                     .byt "Show up to 10 most recently played games", 0
-mdesc_mm_cfg                      .byt "Configure the sd2snes", 0
-mdesc_mm_sysinfo                  .byt "Info about FW version, SD Card, SNES, CIC", 127, 128, 0
-mdesc_cfg_time                    .byt "Set the date and time", 0
-mdesc_cfg_bsx                     .byt "BS-X/Satellaview specific settings", 0
-mdesc_cfg_browser                 .byt "Change file browser settings", 0
-mdesc_cfg_chip                    .byt "Set special chip features", 0
-mdesc_cfg_ingame                  .byt "Set in-game features", 0
-mdesc_cfg_scic                    .byt "Enable/Disable SuperCIC and set video modes", 0
-mdesc_bsx_timesource              .byt "Choose what date and time BS-X games see", 0
-mdesc_bsx_time                    .byt "Set custom time and date for BS-X games", 0
-mdesc_scic_enable                 .byt "Required for SuperCIC enhanced features", 0
-mdesc_scic_vmode_menu             .byt "Set video mode for menu", 0
-mdesc_scic_vmode_game             .byt "Set video mode for games", 0
-mdesc_browser_sort                .byt "Choose whether to sort file lists", 0
-mdesc_browser_hide_ext            .byt "Choose whether to hide file extensions", 0
-mdesc_browser_screensaver         .byt "Fade-out the screen after some time", 0
-mdesc_browser_screensaver_timeout .byt "Set time after which to fade the screen", 0
-mdesc_browser_ledbright           .byt "Change brightness of LEDs", 0
-mdesc_ingame_cheats               .byt "Whether to start out with cheats enabled. Can be changed using in-game buttons", 0
-mdesc_ingame_shortreset           .byt "Go back to menu on short reset if enabled", 0
-mdesc_ingame_enable               .byt "Required for in-game buttons and 7E/7F cheats", 0
-mdesc_ingame_buttons              .byt "Enable in-game buttons (reset, en/disable cheats", 127, 128, "). Requires in-game hook to be enabled.", 0
-mdesc_ingame_holdoff              .byt "Wait 10 seconds before enabling hook (helps some games boot with hook enabled)", 0
-mdesc_ingame_regionpatch          .byt "Bypass simple region protection by games", 0
-mdesc_ingame_1chiptransientfixes  .byt "Patch brightness changes to fix sync glitches, fading scanlines and missing shadow on 1CHIP/Jr. consoles", 0
-mdesc_ingame_brightlimit          .byt "Limit overall brightness (e.g. on 1CHIP consoles to meet RGB line levels)", 0
-mdesc_ingame_resetpatch           .byt "Enable reset patch to align clocks.  Fixes graphical issues in some games", 0
-mdesc_chip_cx4_speed              .byt "Set speed of Cx4 soft core", 0
-mdesc_chip_gsu_speed              .byt "Set speed of SuperFX soft core", 0
-mdesc_chip_msu1_volume_boost      .byt "Set volume boost for MSU1 audio if your sd2snes is too quiet (Rev. E-G)", 0
-mdesc_cx4_speed_fast              .byt "Run as fast as possible", 0
-mdesc_cx4_speed_normal            .byt "Run at approx. original speed", 0
-mdesc_gsu_speed_fast              .byt "Run as fast as possible", 0
-mdesc_gsu_speed_normal            .byt "Run at approx. original speed", 0
+mdesc_mm_last                     .byt "Mostra fins a 10 darrers jocs jugats", 0
+mdesc_mm_cfg                      .byt "Configura l'sd2snes", 0
+mdesc_mm_sysinfo                  .byt "Informaci", 135, " sobre la versi", 135, " de FW, targeta SD, SNES, CIC", 127, 128, 0
+mdesc_cfg_time                    .byt "Configura la data i l'hora", 0
+mdesc_cfg_bsx                     .byt "Configuraci", 135, " espec",133,"fica del BS-X/Satellaview", 0
+mdesc_cfg_browser                 .byt "Canvia la configuraci", 135, " de l'explorador de fitxers", 0
+mdesc_cfg_chip                    .byt "Configura funcionalitats dels xips especials", 0
+mdesc_cfg_ingame                  .byt "Configura funcionalitats durant el joc", 0
+mdesc_cfg_scic                    .byt "Activa/desactiva el SuperCIC i configura modes de v",133,"deo", 0
+mdesc_bsx_timesource              .byt "Configura quina data i hora veuen els jocs de BS-X", 0
+mdesc_bsx_time                    .byt "Configura una data i hora personalitzades per als jocs BS-X", 0
+mdesc_scic_enable                 .byt "Necessari per a les funcionalitats millorades del SuperCIC", 0
+mdesc_scic_vmode_menu             .byt "Configura el mode de v",133,"deo del men", 135, 0
+mdesc_scic_vmode_game             .byt "Configura el mode de v",133,"deo dels jocs", 0
+mdesc_browser_sort                .byt "Permet triar si voleu ordenar les llistes de fitxers", 0
+mdesc_browser_hide_ext            .byt "Permet triar si voleu amagar les extensions dels fitxers", 0
+mdesc_browser_screensaver         .byt "Enfosqueix la pantalla despr",132,"s d'un temps", 0
+mdesc_browser_screensaver_timeout .byt "Configura el temps despr",132,"s del qual s'apagar",130," la pantalla", 0
+mdesc_browser_ledbright           .byt "Canvia la brillantor dels LEDs", 0
+mdesc_ingame_cheats               .byt "Determina si es comen",137,"a amb els trucs activats. Es pot canviar amb els botons durant el joc", 0
+mdesc_ingame_shortreset           .byt "Si s'activa, torna al men",136," en fer un reinici curt", 0
+mdesc_ingame_enable               .byt "Necessari per als botons dins del joc i els trucs 7E/7F", 0
+mdesc_ingame_buttons              .byt "Activa els botons dins del joc (reinici, activa/desactiva trucs", 127, 128, "). Cal que activeu l'acoblament al joc.", 0
+mdesc_ingame_holdoff              .byt "Espera 10 segons abans d'activar l'acoblament (fa que alguns jocs engeguin b",132," amb l'acoblament activat)", 0
+mdesc_ingame_regionpatch          .byt "Evita la protecci", 135, " de regi", 135, " simple dels jocs", 0
+mdesc_ingame_1chiptransientfixes  .byt "Apeda",137,"a els canvis de brillantor per a solucionar errors de sincronitzaci",135,", l",133,"nies d'escaneig que s'esvaeixen i ombres que no es veuen en consoles 1CHIP/Jr", 0
+mdesc_ingame_brightlimit          .byt "Limita la brillantor general (p.ex. en consoles 1CHIP per a encaixar als nivells de l",133",nies RGB)", 0
+mdesc_ingame_resetpatch           .byt "Activa el peda",137," de reinici per a alinear els rellotges. Soluciona problemes gr",130","fics en alguns jocs", 0
+mdesc_chip_cx4_speed              .byt "Configura la velocitat del nucli Cx4", 0
+mdesc_chip_gsu_speed              .byt "Configura la velocitat del nucli SuperFX", 0
+mdesc_chip_msu1_volume_boost      .byt "Configura l'augment del volum per a l'",130,"udio MSU-1 si el vostre sd2snes ",132,"s massa silenci",135,"s (Rev. E-G)", 0
+mdesc_cx4_speed_fast              .byt "Executa tan r",130,"pidament com sigui possible", 0
+mdesc_cx4_speed_normal            .byt "Executa a aproximadament la velocitat original", 0
+mdesc_gsu_speed_fast              .byt "Executa tan r",130,"pidament com sigui possible", 0
+mdesc_gsu_speed_normal            .byt "Executa a aproximadament la velocitat original", 0
 
-text_statusbar_keys .byt "A:Select B:Back X:Menu", 0
-text_statusbar_spc  .byt "B:Back", 0
-text_statusbar_menu .byt "A:Select B:Back", 0
-text_last           .byt "Recent games", 0
-text_system         .byt "CPU/PPU1/PPU2: a/b/c        VMode: x0Hz",0
+text_statusbar_keys .byt "A:Selecciona B:Endarrere X:Men", 136, 0
+text_statusbar_spc  .byt "B:Endarrere", 0
+text_statusbar_menu .byt "A:Selecciona B:Endarrere", 0
+text_last           .byt "Jocs recents", 0
+text_system         .byt "CPU/PPU1/PPU2: a/b/c        ModeV: x0Hz",0
 
-text_on         .byt "On", 0
-text_off        .byt "Off", 0
+text_on         .byt "Actiu", 0
+text_off        .byt "Inactiu", 0
 text_normal     .byt "Normal", 0
-text_fast       .byt "Fast", 0
-text_rtc        .byt "Real-time", 0
-text_custom     .byt "Custom", 0
-text_yes        .byt "Yes", 0
+text_fast       .byt "R",130,"pida", 0
+text_rtc        .byt "En temps real", 0
+text_custom     .byt "Personalitzat", 0
+text_yes        .byt "S",133,"", 0
 text_no         .byt "No", 0
 text_50Hz       .byt "50Hz", 0
 text_60Hz       .byt "60Hz", 0
-text_auto       .byt "Auto", 0
+text_auto       .byt "Autom",130,"tic", 0
 text_pal        .byt "PAL", 0
 text_ntsc       .byt "NTSC", 0
-text_add        .byt "Add", 0
-text_remove     .byt "Remove", 0
-text_edit       .byt "Edit", 0
-text_save       .byt "Save", 0
+text_add        .byt "Afegeix", 0
+text_remove     .byt "Suprimeix", 0
+text_edit       .byt "Edita", 0
+text_save       .byt "Desa", 0
 
 text_1min       .byt "1 min", 0
-text_2min       .byt "2 mins", 0
-text_3min       .byt "3 mins", 0
-text_4min       .byt "4 mins", 0
-text_5min       .byt "5 mins", 0
-text_10min      .byt "10 mins", 0
-text_15min      .byt "15 mins", 0
-text_20min      .byt "20 mins", 0
-text_30min      .byt "30 mins", 0
-text_45min      .byt "45 mins", 0
-text_60min      .byt "1 hour", 0
+text_2min       .byt "2 min", 0
+text_3min       .byt "3 min", 0
+text_4min       .byt "4 min", 0
+text_5min       .byt "5 min", 0
+text_10min      .byt "10 min", 0
+text_15min      .byt "15 min", 0
+text_20min      .byt "20 min", 0
+text_30min      .byt "30 min", 0
+text_45min      .byt "45 min", 0
+text_60min      .byt "1 hora", 0
 
 text_minus1     .byt "-1", 0
 text_minus2     .byt "-2", 0
@@ -313,50 +313,50 @@ text_11         .byt "11", 0
 text_12         .byt "12", 0
 text_13         .byt "13", 0
 text_14         .byt "14", 0
-text_15_max     .byt "15 (max)", 0
+text_15_max     .byt "15 (m",130,"x.)", 0
 
-text_3_5db      .byt "+3.5dBFS", 0
+text_3_5db      .byt "+3,5dBFS", 0
 text_6db        .byt "+6dBFS", 0
-text_9_5db      .byt "+9.5dBFS", 0
+text_9_5db      .byt "+9,5dBFS", 0
 text_12db       .byt "+12dBFS", 0
 
-text_spcplay    .byt "SPC Music Player", 0
+text_spcplay    .byt "Reproductor de m", 136, "sica SPC", 0
 spcplay_win_x   .byt 15
 spcplay_win_y   .byt 15
 spcplay_win_w   .byt 33
 spcplay_win_h   .byt 3
 
-text_spcload    .byt "Loading SPC data to SPC700", 127, 128, 0
-text_spcstarta  .byt "**** Now playing SPC tune ****", 0
-text_spcstartb  .byt "Name:  ",0
-text_spcstartc  .byt "Song:  ",0
-text_spcstartd  .byt "Artist:",0
-text_spc_statusbar .byt "B:Back", 0
+text_spcload    .byt "Carregant l'SPC a l'SPC700", 127, 128, 0
+text_spcstarta  .byt "* Reproduint la melodia SPC *", 0
+text_spcstartb  .byt "Nom    ",0
+text_spcstartc  .byt "Can", 137, 135, "  ",0
+text_spcstartd  .byt "Artista",0
+text_spc_statusbar .byt "B:Endarrere", 0
 
 spcstart_win_x  .byt 10
 spcstart_win_y  .byt 13
 spcstart_win_w  .byt 44
 spcstart_win_h  .byt 9
 
-text_loading    .byt "Loading", 127, 128, "                        ",0
-text_saving     .byt "Saving", 127, 128, "                         ",0
+text_loading    .byt "Carregant", 127, 128, "                      ",0
+text_saving     .byt "Desant", 127, 128, "                         ",0
 loading_win_x   .byt 2
 loading_win_y   .byt 28
 loading_win_w   .byt 34
 loading_win_h   .byt 1
 
-text_cheat      .byt "Cheats for ", 0
+text_cheat      .byt "Trucs per a ", 0
 cheat_win_x     .byt 6
 cheat_win_y     .byt 11
 cheat_win_w     .byt 52
 cheat_win_h     .byt 15
 
-cheat_tab_head  .byt "Name                         # of codes  Enabled", 0
+cheat_tab_head  .byt "Nom                          N.de codis  Activat", 0
 cheat_tab_line  .byt 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
                 .byt 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
                 .byt 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,0
 
-cheat_detail_head .byt "PAR       GG        Address Value", 0
+cheat_detail_head .byt "PAR       GG        Adre", 137, "a  Valor", 0
 cheat_detail_line .byt 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
                   .byt 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
                   .byt 24,0
